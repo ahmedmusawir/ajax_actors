@@ -1,0 +1,12 @@
+ul {
+	list-style: none;
+}
+.info_container {
+	background: darkred;
+	border-radius: 20px;
+	border: 2px solid red;
+	position: absolute;
+	top: 0;
+	padding: 2em;
+	display: none;
+}

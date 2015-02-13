@@ -1,0 +1,36 @@
+[06-Feb-2014 18:32:09] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/functions.php:5
+Stack trace:
+#0 /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/functions.php(5): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/index.php(4): connect()
+#2 {main}
+  thrown in /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/functions.php on line 5
+[19-Feb-2014 10:35:11] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'htmlcssj_root'@'localhost' to database 'htmlcssj_sakila'' in /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/functions.php:5
+Stack trace:
+#0 /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/functions.php(5): PDO->__construct('mysql:host=loca...', 'htmlcssj_root', 'Keya5392')
+#1 /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/index.php(4): connect()
+#2 {main}
+  thrown in /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/functions.php on line 5
+[19-Feb-2014 10:45:16] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'htmlcssj_root'@'localhost' to database 'htmlcssj_sakila'' in /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/functions.php:5
+Stack trace:
+#0 /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/functions.php(5): PDO->__construct('mysql:host=loca...', 'htmlcssj_root', 'Keya5392')
+#1 /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/index.php(4): connect()
+#2 {main}
+  thrown in /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/functions.php on line 5
+[19-Feb-2014 10:45:29] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'htmlcssj_root'@'localhost' to database 'htmlcssj_sakila'' in /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/functions.php:5
+Stack trace:
+#0 /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/functions.php(5): PDO->__construct('mysql:host=loca...', 'htmlcssj_root', 'Keya5392')
+#1 /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/index.php(4): connect()
+#2 {main}
+  thrown in /home/htmlcssj/public_html/htmlfive.info/etech/php_envato/ajax_actor_app/functions.php on line 5
+[02-Jul-2014 18:23:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'htmlcssj_sakila.actor' doesn't exist' in /home/ahmedmusawir/public_html/folio/etech/php_envato/ajax_actor_app/functions.php:35
+Stack trace:
+#0 /home/ahmedmusawir/public_html/folio/etech/php_envato/ajax_actor_app/functions.php(35): PDO->prepare('??SELECT actor_...')
+#1 /home/ahmedmusawir/public_html/folio/etech/php_envato/ajax_actor_app/index.php(9): get_actors_by_last_name('b')
+#2 {main}
+  thrown in /home/ahmedmusawir/public_html/folio/etech/php_envato/ajax_actor_app/functions.php on line 35
+[02-Jul-2014 18:23:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'htmlcssj_sakila.actor' doesn't exist' in /home/ahmedmusawir/public_html/folio/etech/php_envato/ajax_actor_app/functions.php:35
+Stack trace:
+#0 /home/ahmedmusawir/public_html/folio/etech/php_envato/ajax_actor_app/functions.php(35): PDO->prepare('??SELECT actor_...')
+#1 /home/ahmedmusawir/public_html/folio/etech/php_envato/ajax_actor_app/index.php(9): get_actors_by_last_name('e')
+#2 {main}
+  thrown in /home/ahmedmusawir/public_html/folio/etech/php_envato/ajax_actor_app/functions.php on line 35
